@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css"/>
+    <title>Catalogue</title>
+</head>
+  <body onload="displayRecipes()">
+    <nav>
+        <div class="container">
+            <h1 style="width: 250px;height: 70px;flex:1;margin: 15px 0 0 100px;">Savory Solution</h1>
+            <ul style="float:right">
+                <li><a class="home" href="index.html">Home</a></li>
+                <li><a class="props" href="#prop">à Propos</a></li>
+            </ul>
+            <img class="icon" src="/assets/iconl.svg">
+        </div>
+    </nav>   
+    <main>
+        <div class="cacon">
+        <img class="imag" src="/assets/lavhome.png">
+        <h1>Catalogue des recettes</h1>
+        <div class="search">
+        <input type="search" id="sbr" name="searchbar" placeholder="Rechercher une recette">
+        </div>
+    </div>
+    <div id="recette"></div>
+    <div id="messageContainer"></div>
+    </main>
+    <footer>
+        <div id="prop">
+            <h2> à propos<h2>
+            <div class="ab">
+            <div class="b">
+             <p>un site Web qui rassemble plusieurs recettes de divers pays afin d'être la solution 
+                la plus rapide aux problèmes de cuisine tout en offrant les meilleurs goûts!</p>
+            </div>
+            <div class="a">
+            <p class="info">Contactez nous sur:</p>
+            <p class="info">Adresse E-mail: savorysolution@gmail.com</p>
+            <p class="info">Numero telephone: +213 55555321</p>
+            </div>
+            <div class="c">
+            <p class="info">Reseaux sociaux:</p>
+            <ul>
+                <img class="social" src="/assets/facebook.svg">
+                <img class="social" src="/assets/instagram.svg">
+                <img class="social" src="/assets/linkedin.svg">
+            </ul>
+            </div>
+            </div>
+            <p class="copy">© 2023 Savory Solution</p>
+        </div>
+    </footer>
+
+        </body>
+        <script src="/js/recettesDB.js"></script>
+        <script src="/js/catalogue.js"></script>
+</html>

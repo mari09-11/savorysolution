@@ -1,0 +1,472 @@
+html{
+  scroll-behavior: smooth;
+}
+body {
+    background-color: #87ae73;
+    margin: 0;
+    padding: 12px;
+    padding-left: 12px;
+}
+
+nav ul {
+    background-color: #87ae73;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 0 56%;
+    overflow: hidden;
+    height: 50px;
+    flex: 1;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    padding: 8px;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 8px;
+}
+.icon{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 80px;
+  padding: 0 0 0 12px;
+}
+/******************************home*********************************/
+h1 {
+    color: #ede3e9;
+    font-family:Georgia, serif;
+    width: 800px;
+    font-style: oblique;
+    display:flex;
+    float: left;
+}
+
+h2{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#hero {
+    text-align: center;
+    padding:  0 12px 0 12px;
+    height: 450px;
+}
+.home:hover,.cate:hover,.re:hover,.props:hover {
+    background-color: #ede3e9;
+    color: #87ae73;
+  }
+.par{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 40%; 
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 20px;
+  margin: 0;
+  color: black;
+  background-color: rgba(209, 226, 214, 0.432);
+  border-radius: 8px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  text-align: center;
+}
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+    display: flex;
+    height: 50px;
+  }
+  #hero h1 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .imag{
+   width:100%; 
+   height: 450px;
+   border-radius: 8px;
+   padding: 0;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+  .proprght{
+    float: right;
+  }
+ nav{
+  background-color: #87ae73;
+  height: 70px;
+  width: 100%;
+  }
+
+  #cat{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5% 0 5%; 
+    width: 100%;
+  }
+
+  .sqcon{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .ovcont{
+  position: relative;
+  width: 50%;
+}
+
+ .square{
+  background-color: #87ae73;
+      width: 200px;
+      height: 200px;
+      border-radius: 15px;
+ }
+ .sq {
+    color: white;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 98%;
+  width: 30%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #598556;
+  border-radius: 15px;
+  }
+  .ovcont:hover .overlay {
+    opacity: 1;
+  }
+
+.plus{
+  background-color: #598556;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  height: 65px;
+  width: 147px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+  align-items: center;
+  font-size: medium;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 27%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.plus:hover{
+  background-color: #ede3e9;
+  color: #87ae73;
+}
+
+ main{
+  padding: 0px;
+ }
+
+ .recipe-card #recipe1 #img1, #recipe2 #img2,#recipe3 #img3,#recipe4 #img4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+ }
+ #img1 img,#img2 img,#img3 img,#img4 img{
+   height: 200px;
+    width: 160px;
+    border-radius: 8px;
+ }
+ 
+  footer{
+    border-radius: 8px;
+    background-color: #598556;
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+    
+  }
+ 
+  #prop .ab{
+    display: flex;
+    padding: 0 0 0 12px;
+  }
+  #prop h2{
+    margin: 0;
+  }
+  .b{
+    font-size: large;
+    text-align: center;
+    align-items: center;
+    height: 80px;
+    width:500px;
+    flex: 1;
+    flex-basis: 70% ;
+    margin: 0;
+    padding: 0 30px 0 0;
+  }
+  .a{
+    flex: 1;
+    flex-basis: 30%;
+    padding: 0 0 0 30px;
+  }
+  .c{
+    flex: 1;
+    flex-basis: 5% ;
+    padding: 0 0 0 30px;
+  }
+
+  #prop ul{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      height: 50px;
+      width: 50px;
+      transform: translate(-50%,-50%);
+      padding: 0 0 0 100px;
+  }
+  .social{
+    height: 40px;
+    padding: 2px;
+  }
+  footer .info{
+    display: flex;
+    padding: 10px 0 0 30px  ;
+    margin: 0;
+    text-align: left;
+    align-items: center;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    width: 400px;
+  }
+  footer .copy{
+    font-size: small;
+    font-weight: bold;
+    
+  }
+  
+  .recipes-container {
+    display: flex;
+    justify-content: space-around;
+
+  }
+  
+  .recipe-card {
+    width: 200px;
+    height: 300px;
+    margin-right: 20px;
+    background-color: #598556;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  }
+
+  #recipe1,#recipe2,#recipe3,#recipe4{
+    font-family:Georgia, serif;
+    color: #ede3e9;
+    font-size: medium;
+    height: 42px;
+    margin: 12px;
+
+  }
+
+  .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+/***************************catalogue************************************/
+.cacon{
+  position: relative;
+  padding: 12px;
+}
+.cacon .imag{
+  display: block;
+  max-width: 100%;
+}
+.search{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.cacon h1{
+  position: absolute;
+  top: 30%;
+  left: 67%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
+#sbr{
+  border-radius: 40px;
+  height: 40px;
+  text-align: center;
+  align-items: center;
+  background-color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color:black;
+  box-shadow: 5px 10px 18px #598556;
+  border:  none;
+}
+#sbr .cat{
+  background-color:#87ae73;
+}
+::placeholder{
+  color: #d3d3d2;
+}
+
+#recette{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 12px;
+  text-align: center;
+}
+.pic img{
+  height: 170px;
+  width: 300px;
+  border-radius: 8px;
+}
+#recette .cat{
+  background-color: #598556;
+  border-radius: 8px;
+  padding: 12px;
+}
+ .infoc{
+  color: #ede3e9;
+  font-size: small;
+  background-color: #87ae73;
+  border-radius: 8px;
+  margin: 12px 12px 0 12px;
+  padding: 8px 0 8px 0;
+}
+.infoc a{
+  text-decoration: none;
+  color: #ede3e9;
+  font-size:x-large ;
+}
+/***************************detaille************************************/
+#recipeDetails{
+  padding: 0px;
+}
+.pict{
+background-color: #598556;
+border-radius: 8px ;
+height: 400px;
+width: 500px;
+margin: 0 0 0 350px;
+text-align: center;
+color: #ede3e9;
+}
+.pict img{
+ border-radius: 10px; 
+ margin: 10px;
+ height: 200px;
+ width: 300px;
+}
+.nom{
+  text-decoration: underline;
+  margin: 0;
+}
+.descp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info{
+  display: flex;
+}
+.ing{
+  background-color: #598556;
+  margin: 20px;
+  padding: 10px 0 20px 20px; 
+  border-radius: 8px;
+  flex: 1;
+  flex-basis: 30%;
+  justify-content: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #ede3e9;
+}   
+.ing h3{
+  text-decoration: underline;
+}
+.inst{
+  margin: 20px;
+  padding: 10px 20px 20px 20px; 
+  flex: 1;
+  flex-basis: 70%;
+  justify-content: center;
+  background-color: #598556;
+  border-radius: 8px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  color: #ede3e9;
+}
+.inst h3{
+text-decoration: underline;
+}
+.inst li{
+  margin: 10px;
+}
+.comm{
+  background-color: #598556;
+  border-radius: 8px;
+  margin: 20px;
+  padding: 10px 0 20px 20px; 
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  color: #ede3e9;
+}
+.comm h3{
+  text-decoration: underline;
+}
+.rating,.con{
+  padding: 0 0 0 22px;
+}
